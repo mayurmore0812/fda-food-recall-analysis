@@ -3,7 +3,7 @@ Historical food-enforcement analysis with distinct product-record and recall-eve
 
 **Author:** Mayur More · **Context:** Academic project; not FDA-commissioned or endorsed.
 
-[Notebook](FDA_Food_Recall_Analysis.ipynb) · [Results](docs/RESULTS.md) · [Data & citations](docs/DATA.md) · [Methods](docs/METHODS.md) · [Verification](docs/VERIFICATION.md)
+[Notebook](FDA_Food_Recall_Analysis.ipynb) · [Results](docs/RESULTS.md) · [Data & citations](docs/DATA.md) · [Methods](docs/METHODS.md)
 
 ## Project question
 How do recorded workload, supplied issue categories, recalling-firm locations, initial notification and historical statuses vary?
@@ -46,5 +46,3 @@ This historical snapshot is not a live recall tracker. Firm location is not cons
 - [Case study](https://www.kaggle.com/code/chiyucheng/fda-food-recall-case-study).
 - [FDA definitions](https://www.fda.gov/safety/enforcement-reports/enforcement-report-information-and-definitions).
 - [openFDA overview](https://open.fda.gov/apis/food/enforcement/).
-
-Raw data is excluded. Kaggle metadata lists the dataset as CC0. The inherited case-study code-licence scope still needs confirmation; [licence scope](docs/LICENSE_SCOPE.md). No blanket open-source licence is asserted.
