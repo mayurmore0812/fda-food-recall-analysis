@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Cite this project and separately acknowledge the dataset and case study in docs/DATA.md."
+title: "FDA Food Recall Analysis"
+type: software
+authors:
+  - family-names: More
+    given-names: Mayur
+repository-code: "https://github.com/mayurmore0812/fda-food-recall-analysis"

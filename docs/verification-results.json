@@ -1,0 +1,44 @@
+{
+  "python": "3.12.14",
+  "notebook_executed": true,
+  "error_outputs": 0,
+  "code_sources_unchanged": true,
+  "original_unchanged": true,
+  "plotly_figures": 7,
+  "scrolling_frames": 3,
+  "html_structural_checks": true,
+  "browser_visual_review": false,
+  "privacy_scan": true,
+  "independent_values": {
+    "records": 22840,
+    "events": 5875,
+    "date_min": "2012-06-20",
+    "date_max": "2022-08-31",
+    "record_peak_year": 2017,
+    "record_peak": 3203,
+    "event_peak_year": 2016,
+    "event_peak": 782,
+    "month_peak": 4,
+    "month_mean": 56.9,
+    "single_record_events": 3760,
+    "class_counts": {
+      "Class II": 11681,
+      "Class I": 9916,
+      "Class III": 1243
+    },
+    "material_category_events": 3172,
+    "top_reason_events": 1881,
+    "california_events": 973,
+    "canada_events": 48,
+    "multiple_method_percent": {
+      "Class I": 45.3,
+      "Class II": 31.9,
+      "Class III": 35.2
+    },
+    "status_counts": {
+      "Terminated": 21261,
+      "Ongoing": 1285,
+      "Completed": 294
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source": "https://www.kaggle.com/api/v1/datasets/list?search=fda-food-enforcement-20082022",
+  "checked": "2026-10-12",
+  "ref": "chiyucheng/fda-food-enforcement-20082022",
+  "title": "FDA Food Enforcement 2008-2022",
+  "licenseName": "CC0: Public Domain",
+  "currentVersionNumber": 3,
+  "lastUpdated": "2022-10-27T18:09:25.417Z",
+  "local_archive_version": "Not established; current metadata does not identify the historical local download"
+}
