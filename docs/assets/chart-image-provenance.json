@@ -1,0 +1,88 @@
+{
+  "notebook_sha256": "4d9a42a1f68ff831395cd3fbb7c036f53dcd3fa1104fb233726d4da91940b37c",
+  "notebook_modified": false,
+  "notebook_executed": false,
+  "rendering": "Plotly saved output exported to PNG; scrolling figures expanded in export copies only",
+  "charts": [
+    {
+      "question": 1,
+      "chart_cell": 13,
+      "answer_cell": 14,
+      "image": "docs/assets/insight-01-annual-workload.png",
+      "data_source": "saved notebook output",
+      "expanded_scrolling_ranking": false
+    },
+    {
+      "question": 2,
+      "chart_cell": 16,
+      "answer_cell": 17,
+      "image": "docs/assets/insight-02-monthly-events.png",
+      "data_source": "saved notebook output",
+      "expanded_scrolling_ranking": false
+    },
+    {
+      "question": 3,
+      "chart_cell": 19,
+      "answer_cell": 20,
+      "image": "docs/assets/insight-03-event-breadth.png",
+      "data_source": "saved notebook output",
+      "expanded_scrolling_ranking": false
+    },
+    {
+      "question": 4,
+      "chart_cell": 22,
+      "answer_cell": 23,
+      "image": "docs/assets/insight-04-fda-classes.png",
+      "data_source": "saved notebook output",
+      "expanded_scrolling_ranking": false
+    },
+    {
+      "question": 5,
+      "chart_cell": 25,
+      "answer_cell": 26,
+      "image": "docs/assets/insight-05-issue-categories.png",
+      "data_source": "saved notebook output",
+      "expanded_scrolling_ranking": false
+    },
+    {
+      "question": 6,
+      "chart_cell": 28,
+      "answer_cell": 29,
+      "image": "docs/assets/insight-06-recall-reasons.png",
+      "data_source": "saved notebook output",
+      "expanded_scrolling_ranking": true
+    },
+    {
+      "question": 7,
+      "chart_cell": 31,
+      "answer_cell": 32,
+      "image": "docs/assets/insight-07-us-firm-locations.png",
+      "data_source": "saved notebook output",
+      "expanded_scrolling_ranking": true
+    },
+    {
+      "question": 8,
+      "chart_cell": 34,
+      "answer_cell": 35,
+      "image": "docs/assets/insight-08-non-us-firm-locations.png",
+      "data_source": "saved notebook output",
+      "expanded_scrolling_ranking": true
+    },
+    {
+      "question": 9,
+      "chart_cell": 37,
+      "answer_cell": 38,
+      "image": "docs/assets/insight-09-initial-notification.png",
+      "data_source": "saved notebook output",
+      "expanded_scrolling_ranking": false
+    },
+    {
+      "question": 10,
+      "chart_cell": 40,
+      "answer_cell": 41,
+      "image": "docs/assets/insight-10-historical-status.png",
+      "data_source": "saved notebook output",
+      "expanded_scrolling_ranking": false
+    }
+  ]
+}
