@@ -3,7 +3,7 @@ Historical food-enforcement analysis with distinct product-record and recall-eve
 
 **Author:** Mayur More · **Context:** Academic project; not FDA-commissioned or endorsed.
 
-[Notebook](FDA_Food_Recall_Analysis.ipynb) · [Results](docs/RESULTS.md) · [Data & citations](docs/DATA.md) · [Methods](docs/METHODS.md)
+[Python Notebook and Code](FDA_Food_Recall_Analysis.ipynb) · [Results](docs/RESULTS.md) · [Data & citations](docs/DATA.md) · [Methods](docs/METHODS.md)
 
 ## Project question
 How do recorded workload, supplied issue categories, recalling-firm locations, initial notification and historical statuses vary?
