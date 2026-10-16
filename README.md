@@ -33,7 +33,7 @@ These static PNGs render the notebook’s existing saved Plotly figures. The int
 
 ![Chart for question 1: How does workload vary by year?](docs/assets/insight-01-annual-workload.png)
 
-**Answer:** Product records peaked in 2017 with 3,203 records; distinct events peaked in 2016 with 782. These measure different aspects of recorded workload.
+**Answer:** Product records peaked in 2017 with 3,203 records, while distinct recall events peaked in 2016 with 782 events. This shows us that record volume and event count don't always peak together, so both measures are useful when considering recall workload.
 
 *Evidence: notebook cells 13 (saved chart) and 14 (interpretation); positions include Markdown cells.*
 
@@ -41,7 +41,7 @@ These static PNGs render the notebook’s existing saved Plotly figures. The int
 
 ![Chart for question 2: Which months were busiest on average?](docs/assets/insight-02-monthly-events.png)
 
-**Answer:** April averages 56.9 distinct events, followed by December at 55.4, March at 53.8 and January at 36.9 across complete years 2013–2021. This does not establish that April was busiest every year or forecast future activity.
+**Answer:** Although April has the highest historical monthly avg at 56.9 distinct recall events, followed by December at 55.4 and March at 53.8. January is lower at 36.9. This suggests there are some seasonal variation in recall activity, so we can't conclude April was not necessarily the busiest month every year.
 
 *Evidence: notebook cells 16 (saved chart) and 17 (interpretation); positions include Markdown cells.*
 
@@ -49,7 +49,7 @@ These static PNGs render the notebook’s existing saved Plotly figures. The int
 
 ![Chart for question 3: How broad is each recall event?](docs/assets/insight-03-event-breadth.png)
 
-**Answer:** 3,760 events (64.0%) contain one product record; another 24.1% contain two to five. In total, 88.1% contain at most five records. Record breadth does not measure physical units, severity or staff hours.
+**Answer:** Most recall events involve relatively few product records. 3,760 events (64.0%) contain only one product record, and another 24.1% contain 2–5 records. Overall, 88.1% of events contain five or fewer records, showing that large multi-record recalls are comparatively uncommon..
 
 *Evidence: notebook cells 19 (saved chart) and 20 (interpretation); positions include Markdown cells.*
 
@@ -57,7 +57,7 @@ These static PNGs render the notebook’s existing saved Plotly figures. The int
 
 ![Chart for question 4: Which FDA class is most frequent?](docs/assets/insight-04-fda-classes.png)
 
-**Answer:** Class II has 11,681 records (51.1%), Class I 9,916 (43.4%), and Class III 1,243 (5.4%). Classes I and II together comprise about 94.6%. Class I remains the highest hazard classification despite Class II being more frequent.
+**Answer:** <span style="color:#D7A758">Class II</span> is the most frequent class with 11,681 product records (51.1%), followed by <span style="color:#B85948">Class I</span> with 9,916 (43.4%) and <span style="color:#718692">Class III</span> with 1,243 (5.4%). Class I and II together make up about 94.6% of records. However, frequency is not the same as severity <span style="color:#B85948"> Class I</span> represents the highest health hazard category, which makes it more concerning in such great volume.
 
 *Evidence: notebook cells 22 (saved chart) and 23 (interpretation); positions include Markdown cells.*
 
@@ -65,7 +65,7 @@ These static PNGs render the notebook’s existing saved Plotly figures. The int
 
 ![Chart for question 5: Which categories recur most?](docs/assets/insight-05-issue-categories.png)
 
-**Answer:** Materials, allergens and labelling is associated with 3,172 events; Biological issues with 1,716. These are supplied categories. Their counts overlap and do not estimate consumer risk.
+**Answer:** Materials, allergens and labelling is the most frequent problem category, appearing in 3,172 distinct recall events, followed by Biological issues with 1,716 events. This highlights labelling, allergen and material related problems as a major recurring pattern in most of the product recall reaons.
 
 *Evidence: notebook cells 25 (saved chart) and 26 (interpretation); positions include Markdown cells.*
 
@@ -73,7 +73,7 @@ These static PNGs render the notebook’s existing saved Plotly figures. The int
 
 ![Chart for question 6: Which reasons recur most?](docs/assets/insight-06-recall-reasons.png)
 
-**Answer:** Undeclared or mislabeled products is associated with 1,881 events; other frequent supplied reasons include Allergen issues (738), L. monocytogenes (703), Salmonella (702) and Foreign Material (576). Labels are inherited from the cited source; counts can overlap.
+**Answer:** Undeclared or mislabeled products are the most frequent supplied recall reason, appearing in 1,881 distinct events. They are followed by Allergen issues (738), L. monocytogenes (703), Salmonella (702), and Foreign Material (576). This shows that labelling and declaration problems are especially common among the recorded recall reasons.
 
 *Evidence: notebook cells 28 (saved chart) and 29 (interpretation); positions include Markdown cells.*
 
@@ -81,7 +81,7 @@ These static PNGs render the notebook’s existing saved Plotly figures. The int
 
 ![Chart for question 7: Where are US firms located?](docs/assets/insight-07-us-firm-locations.png)
 
-**Answer:** California is associated with 973 events, New York 483, Texas 359, New Jersey 337 and Illinois 280. These concern recalling-firm locations, not consumer exposure. Events may span multiple locations.
+**Answer:** California has the highest no. of US recall events with 973, followed by New York (483), Texas (359), New Jersey (337), and Illinois (280). California therefore shows a much larger concentration of recorded recall activity than other states, but firm location alone does not state consumer risk.
 
 *Evidence: notebook cells 31 (saved chart) and 32 (interpretation); positions include Markdown cells.*
 
@@ -89,7 +89,7 @@ These static PNGs render the notebook’s existing saved Plotly figures. The int
 
 ![Chart for question 8: Which non-US countries lead?](docs/assets/insight-08-non-us-firm-locations.png)
 
-**Answer:** Canada leads non-US firm locations with 48 events, followed by France. Firm-location counts do not measure country risk.
+**Answer:** Canada leads the 26 non-US countries with 48 recall events, followed by France. This can support international coordination, but firm location does not measure exposure or country risk.
 
 *Evidence: notebook cells 34 (saved chart) and 35 (interpretation); positions include Markdown cells.*
 
@@ -97,7 +97,7 @@ These static PNGs render the notebook’s existing saved Plotly figures. The int
 
 ![Chart for question 9: How do methods differ by class?](docs/assets/insight-09-initial-notification.png)
 
-**Answer:** Multiple methods is the most frequent initial-notification label: 45.3% of Class I, 31.9% of Class II and 35.2% of Class III records. This does not establish communication effectiveness or the full communication history.
+**Answer:** Multiple notification methods is the most common approach across all FDA severity classes: 45.3% of Class I, 31.9% of Class II, and 35.2% of Class III records use multiple methods. This suggests that multi channel communication is widely used, especially for Class I recalls, but the data does not show which method is most effective.
 
 *Evidence: notebook cells 37 (saved chart) and 38 (interpretation); positions include Markdown cells.*
 
@@ -105,7 +105,7 @@ These static PNGs render the notebook’s existing saved Plotly figures. The int
 
 ![Chart for question 10: What statuses were recorded?](docs/assets/insight-10-historical-status.png)
 
-**Answer:** Historical labels are Terminated 21,261 (93.1%), Ongoing 1,285 (5.6%) and Completed 294 (1.3%). They do not establish current status or effectiveness. The [openFDA overview](https://open.fda.gov/apis/food/enforcement/) warns against using this endpoint to track recall lifecycle.
+**Answer:** Most product records are Terminated: 21,261 records (93.1%). A further 1,285 (5.6%) are Ongoing and 294 (1.3%) are Completed. This indicates that the vast majority of recalls had reached termination by the latest snapshot, while only a small share remained ongoing or completed under those recorded statuses.
 
 *Evidence: notebook cells 40 (saved chart) and 41 (interpretation); positions include Markdown cells.*
 
